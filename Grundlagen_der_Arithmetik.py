@@ -9,17 +9,17 @@ Kapitel=st.sidebar.radio("Wähle ein Kapitel", options=("Die natürlichen Zahlen
 if Kapitel == "Die natürlichen Zahlen":
     st.header("Die natürlichen Zahlen $$\mathbb{N}$$")
     st.markdown("Das Zählen ist die grundlegendste mathematische Tätigkeit und stand vermutlich auch im historischen Kontext am Anfang der Mathematik. Ausgehend von der Einheit (die Zahl $$1$$) entstehen durch fortlaufendes Hinzufügen weiterer Einheiten die so genannten natürlichen Zahlen $$1, 2, 3, 4, 5, …$$")
-    st.image("https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Natuerliche_Zahlen.jpg")
+    image_url = "https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Natuerliche_Zahlen.jpg"
+    st.image(image_url)
     
-
     st.markdown("Die Menge der natürlichen Zahlen wird in der Mathematik mit dem Symbol N bezeichnet und man schreibt: ")
     st.latex(r"\mathbb{N} = \lbrace 1; 2; 3; 4; 5; ... \rbrace")
     st.markdown("Dabei symbolisieren die drei Punkte $$„…“$$, dass es immer in dieser Form weitergeht, ohne jemals abzubrechen. Die natürlichen Zahlen lassen sich als Punkte am so genannten Zahlenstrahl veranschaulichen. Die Zahl 0 wird normalerweise nicht zu den natürlichen Zahlen gezählt. Möchte man die Zahl $$0$$ dabeihaben, so schreibt man in der Regel: ")
     st.latex(r"\mathbb{N}_{0} = \lbrace 1; 2; 3; 4; 5; ... \rbrace")
     
     st.markdown("Die natürlichen Zahlen lassen sich am so genannten 'Zahlenstrahl' darstellen: ")
-    st.image("https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Zahlenstrahl.jpg")
-    
+    image_url = "https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Zahlenstrahl.jpg"
+    st.image(image_url)
 
 if Kapitel == "Vom Zählen zum Rechnen":
     st.header("Vom Zählen zum Rechnen")
