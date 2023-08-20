@@ -77,7 +77,7 @@ if Kapitel == "Die ganzen Zahlen":
     st.markdown("Fügt man den **natürlichen Zahlen** auch die entsprechenden **negativen Zahlen** hinzu, so erhält man die **Menge der ganzen Zahlen**. Man schreibt:")
     st.latex(r"\mathbb{Z} = \lbrace ...; -5; -4; -3; -2; -1;\quad 0;\quad 1; \quad 2; \quad 3; \quad 4; \quad 5; ... \rbrace")
     st.markdown("Die ganzen Zahlen lassen sich als Punkte auf der **Zahlengeraden** veranschaulichen.")
-    st.image("Zahlengerade.jpg")
+    st.image("https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Zahlengerade.JPG")
     st.markdown("Vor negative Zahlen schreibt man ein **Minuszeichen**, wobei zu beachten ist, dass es sich hierbei nicht um ein „Rechenzeichen-Minus“ handelt, sondern um ein **„Vorzeichen-Minus“**. ")
 
 if Kapitel == "Rechenregeln für ganze Zahlen":
