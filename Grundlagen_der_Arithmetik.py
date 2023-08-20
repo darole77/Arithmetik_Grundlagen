@@ -9,7 +9,7 @@ Kapitel=st.sidebar.radio("Wähle ein Kapitel", options=("Die natürlichen Zahlen
 if Kapitel == "Die natürlichen Zahlen":
     st.header("Die natürlichen Zahlen $$\mathbb{N}$$")
     st.markdown("Das Zählen ist die grundlegendste mathematische Tätigkeit und stand vermutlich auch im historischen Kontext am Anfang der Mathematik. Ausgehend von der Einheit (die Zahl $$1$$) entstehen durch fortlaufendes Hinzufügen weiterer Einheiten die so genannten natürlichen Zahlen $$1, 2, 3, 4, 5, …$$")
-    st.image("Natuerliche_Zahlen.jpg")
+    st.image("https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Natuerliche_Zahlen.jpg")
     
 
     st.markdown("Die Menge der natürlichen Zahlen wird in der Mathematik mit dem Symbol N bezeichnet und man schreibt: ")
