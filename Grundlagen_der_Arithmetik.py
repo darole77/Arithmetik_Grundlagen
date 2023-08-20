@@ -18,7 +18,7 @@ if Kapitel == "Die natürlichen Zahlen":
     st.latex(r"\mathbb{N}_{0} = \lbrace 1; 2; 3; 4; 5; ... \rbrace")
     
     st.markdown("Die natürlichen Zahlen lassen sich am so genannten 'Zahlenstrahl' darstellen: ")
-    st.image("Zahlenstrahl.jpg")
+    st.image("https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Zahlenstrahl.jpg")
     
 
 if Kapitel == "Vom Zählen zum Rechnen":
