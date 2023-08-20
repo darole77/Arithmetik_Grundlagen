@@ -9,6 +9,7 @@ Kapitel=st.sidebar.radio("Wähle ein Kapitel", options=("Die natürlichen Zahlen
 
 if Kapitel == "Die natürlichen Zahlen":
     st.header("Die natürlichen Zahlen $$\mathbb{N}$$")
+    st.markdown("[Learningsnack](https://www.learningsnacks.de/share/249432/c7b260eb380b35c7fa7b6072f4e2767f1a45bab3)")
     st.markdown("Das Zählen ist die grundlegendste mathematische Tätigkeit und stand vermutlich auch im historischen Kontext am Anfang der Mathematik. Ausgehend von der Einheit (die Zahl $$1$$) entstehen durch fortlaufendes Hinzufügen weiterer Einheiten die so genannten natürlichen Zahlen $$1, 2, 3, 4, 5, …$$")
     
     image_url = "https://imageshack.com/i/pm5BDdqup"
