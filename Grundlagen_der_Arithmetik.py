@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+from PIL import Image
 
 st.title("Grundlagen der Arithmetik")
 
@@ -9,6 +10,10 @@ Kapitel=st.sidebar.radio("Wähle ein Kapitel", options=("Die natürlichen Zahlen
 if Kapitel == "Die natürlichen Zahlen":
     st.header("Die natürlichen Zahlen $$\mathbb{N}$$")
     st.markdown("Das Zählen ist die grundlegendste mathematische Tätigkeit und stand vermutlich auch im historischen Kontext am Anfang der Mathematik. Ausgehend von der Einheit (die Zahl $$1$$) entstehen durch fortlaufendes Hinzufügen weiterer Einheiten die so genannten natürlichen Zahlen $$1, 2, 3, 4, 5, …$$")
+    
+    image=Image.open("https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Natuerliche_Zahlen.jpg")
+    st.image(image, caption ='Das Zählen')
+    
     image_url = "https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Natuerliche_Zahlen.jpg"
     st.image(image_url)
     
