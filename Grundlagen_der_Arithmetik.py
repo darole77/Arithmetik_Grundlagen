@@ -67,75 +67,93 @@ if Kapitel == "Teilbarkeit":
     st.markdown("Man sagt „Die Zahl $$a$$ ist Teiler von $$b$$“ oder „$$b$$ ist durch $$a$$ teilbar“, wenn es zu den natürlichen Zahlen $$a$$ und $$b$$ eine natürliche Zahl $$c$$ gibt, sodass gilt:")
     st.latex(r"b=a⋅c")
     st.markdown("Wenn $$a$$ Teiler von $$b$$ ist, so schreibt man: $$a | b$$   andernfalls  $$a ∤ b$$")
-    st.image("https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Teilbarkeit_1.JPG")
-    st.image("https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Teilbarkeit_0.JPG")
+    image_url = "https://imageshack.com/i/poTtumIhj"
+    st.image(image_url)
+    image_url = "https://imageshack.com/i/pm4oQ4DCj"
+    st.image(image_url)
     
 if Kapitel == "Teilbarkeitsregeln":
     st.header("Teilbarkeitsregeln")
-    st.image("https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Teilbarkeitsregeln.JPG")
-   
-
+    image_url = "https://imageshack.com/i/pmpxMV2Qj"
+    st.image(image_url)
+    
 if Kapitel == "Die ganzen Zahlen":
     st.header("Die ganzen Zahlen $$\mathbb{Z}$$")
     st.markdown("Fügt man den **natürlichen Zahlen** auch die entsprechenden **negativen Zahlen** hinzu, so erhält man die **Menge der ganzen Zahlen**. Man schreibt:")
     st.latex(r"\mathbb{Z} = \lbrace ...; -5; -4; -3; -2; -1;\quad 0;\quad 1; \quad 2; \quad 3; \quad 4; \quad 5; ... \rbrace")
     st.markdown("Die ganzen Zahlen lassen sich als Punkte auf der **Zahlengeraden** veranschaulichen.")
-    st.image("https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Zahlengerade.JPG")
+    image_url = "https://imageshack.com/i/pnxbw6Puj"
+    st.image(image_url)
     st.markdown("Vor negative Zahlen schreibt man ein **Minuszeichen**, wobei zu beachten ist, dass es sich hierbei nicht um ein „Rechenzeichen-Minus“ handelt, sondern um ein **„Vorzeichen-Minus“**. ")
 
 if Kapitel == "Rechenregeln für ganze Zahlen":
     st.header("Rechenregeln für ganze Zahlen")
     st.markdown("Um den Unterschied zwischen Rechenzeichen und Vorzeichen zu verdeutlichen, werden Zahlen und ihre Vorzeichen normalerweise in Klammern gesetzt.")
-    st.image("Add_Sub.jpg")
-    st.image("Mul.jpg")
-    st.image("Div.jpg")
-    
+    image_url = "https://imageshack.com/i/pmpozegDj"
+    st.image(image_url)
+    image_url = "https://imageshack.com/i/pnQ3xc2cj"
+    st.image(image_url)
+    image_url = "https://imageshack.com/i/pmHQNTRlj"
+    st.image(image_url)
+        
 if Kapitel == "Die rationalen Zahlen":
     st.header("Die rationalen Zahlen $$\mathbb{Q}$$")
     st.markdown("Fügt man den **ganzen Zahlen** nun auch noch die **positiven und negativen Brüche** hinzu, so erhält man die **Menge der rationalen Zahlen**. Dies sind alle Zahlen, die sich als Bruch darstellen lassen, also in der Form $$p \over q$$ (wobei $$p$$ und $$q$$ hier für beliebige ganze Zahlen stehen können, $$q$$ allerdings nicht 0 sein darf).")
     st.markdown("Die formale Darstellung dieser Zahlenmenge lautet:")
     st.latex(r"\mathbb{Q} = \lbrace {p \over q} | p, q ∈ \mathbb{Z}; q≠ 0 \rbrace")
     st.markdown("Auch jeder rationalen Zahl kann ein Punkt auf der **Zahlengeraden** zugeordnet werden:")
-    st.image("Zahlengerade2.jpg")
+    image_url = "https://imageshack.com/i/pmir77I3j"
+    st.image(image_url)
     st.markdown("Die rationalen Zahlen liegen dabei „dicht“ auf der Zahlengeraden, das heißt, dass es zwischen zwei rationalen Zahlen immer noch unendlich viele weitere rationale Zahlen gibt.")
     st.markdown("Hier zur Veranschaulichung ein paar Beispiele für rationale Zahlen:  ")
-    st.image("Zahlengerade3.jpg")
+    image_url = "https://imageshack.com/i/pmuSW5mej"
+    st.image(image_url)
    
 if Kapitel == "Bruch- und Dezimalschreibweise":
     st.header("Bruch- und Dezimalschreibweise")
-    st.image("Dezi1.jpg")
+    image_url = "https://imageshack.com/i/pn0CrnhVj"
+    st.image(image_url)
     st.write("")
     st.write("")
-    st.image("Dezi2.jpg")
+    image_url = "https://imageshack.com/i/pmfbxDugj"
+    st.image(image_url)
     st.write("")
     st.write("")
-    st.image("Dezi3.jpg")
+    image_url = "https://imageshack.com/i/pn9fT4n3j"
+    st.image(image_url)
     
 if Kapitel == "Rechenregeln für rationale Zahlen":
     st.header("Rechenregeln für rationale Zahlen")
-    st.image("Erw_B.jpg")
+    image_url = "https://imageshack.com/i/pnib4l2lj"
+    st.image(image_url)
     st.write("")
     st.write("")
-    st.image("Kue_B.jpg")
+    image_url = "https://imageshack.com/i/popReS1bj"
+    st.image(image_url)
     st.write("")
     st.write("")
-    st.image("Add_B.jpg")
+    image_url = "https://imageshack.com/i/pmUiiUbWj"
+    st.image(image_url)
     st.write("")
     st.write("")
-    st.image("Sub_B.jpg")
+    image_url = "https://imageshack.com/i/pmkekyckj"
+    st.image(image_url)
     st.write("")
     st.write("")
-    st.image("Mul_B.jpg")
+    image_url = "https://imageshack.com/i/pnKESB65j"
+    st.image(image_url)
     st.write("")
     st.write("")
-    st.image("Div_B.jpg")
+    image_url = "https://imageshack.com/i/pnYUXQiSj"
+    st.image(image_url)
     
 
 if Kapitel == "Die reellen Zahlen":
     st.header("Die reellen Zahlen $$\mathbb{R}$$")
     st.markdown("Obwohl die rationalen Zahlen (Brüche) „dicht“ auf der Zahlengeraden liegen (das heißt, dass zwischen zwei beliebigen rationalen Zahlen immer noch unendlich viele weitere rationale Zahlen liegen) decken sie noch nicht alle Punkte der Zahlengerade ab. Es gibt auf der Zahlengerade **„Lücken“**, die nicht von rationalen Zahlen eingenommen werden können. ")
     st.markdown("Beispielsweise lässt sich die Zahl $$\sqrt{2}$$ ganz einfach auf der Zahlengerade darstellen, indem man die Länge der Diagonale des Einheitsquadrats (Quadrat mit der Seitenlänge 1) mit dem Zirkel auf die Zahlengerade abschlägt: ")
-    st.image("Wurzel2.jpg")
+    image_url = "https://imageshack.com/i/pon5LGDcj"
+    st.image(image_url)
     
     st.markdown("Die Zahl $$\sqrt{2}$$ **lässt sich aber NICHT als Bruch darstellen**, ist also keine rationale Zahl, was bereits die Griechen in der Antike herausgefunden haben. Und wenn man die Zahl $$\sqrt{2}$$ als Dezimalzahl angeben möchte ($$\sqrt{2}≈1,414213562$$), so ergibt sich ein unendlich langer Dezimalbruch, der allerdings **niemals periodisch wird**.")
     st.markdown("Zahlen, die diese Eigenschaft erfüllen (**nicht periodische Dezimalzahlen mit unendlich vielen Nachkommastellen**), nennt man **irrationale Zahlen**. Weiter Beispiele für irrationale Zahlen sind $$\sqrt{3}$$, $$\sqrt{5}$$, $$\sqrt{7}$$ , … oder aber beispielsweise auch die Kreiszahl $$\pi$$.")
@@ -143,11 +161,13 @@ if Kapitel == "Die reellen Zahlen":
     st.markdown("Den Zahlenbereich, der dadurch entsteht, nennt man **reelle Zahlen**.")
     st.markdown("Die reellen Zahlen setzen sich also zusammen aus den **rationalen Zahlen (Zahlen die als Bruch darstellbar sind)** und den **irrationalen Zahlen (nicht periodische Dezimalbrüche mit unendlich vielen Nachkommastellen)** In der Mathematik bezeichnet man die reellen Zahlen mit dem Symbol $$\mathbb{R}$$")
     st.markdown("")
-    st.image("Zahlengerade4.jpg")
-    
+    image_url = "https://imageshack.com/i/poPtOkVij"
+    st.image(image_url)
     st.write("")
     st.write("")
-    st.image("Zahlenbereiche.jpg")
+    image_url = "https://imageshack.com/i/poOzIfsHj"
+    st.image(image_url)
+
    
 
 if Kapitel == "Anordnung und Betrag":
@@ -157,13 +177,15 @@ if Kapitel == "Anordnung und Betrag":
     st.markdown("Man schreibt dafür:")
     st.markdown("$$-5<-2")
     st.markdown("Zahlen lassen sich ganz leicht vergleichen, wenn man sie auf der Zahlengeraden darstellt.")
-    st.image("Zahlengerade5.jpg")
+    image_url = "https://imageshack.com/i/pnaHIADsj"
+    st.image(image_url)
   
     st.markdown("Von zwei Zahlen ist diejenige die kleinere, die auf der Zahlengeraden weiter links liegt.")
     st.markdown("")
     st.markdown("")
     st.markdown("Die Zahlen $$-3$$ und $$3$$ sind auf der Zahlengeraden gleich weit von der $$0$$ entfernt. Man bezeichnet sie als **Gegenzahlen**.")
-    st.image("Zahlengerade6.jpg")
+    image_url = "https://imageshack.com/i/pottxxdAj"
+    st.image(image_url)
     
     
     st.markdown("Der **Abstand einer Zahl von der Zahl $$0$$** wird als **Betrag** bezeichnet. Das mathematische Symbol für den Betrag ist $$| \quad | $$")
