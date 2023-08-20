@@ -13,17 +13,14 @@ if Kapitel == "Die natürlichen Zahlen":
     
     image_url = "https://imageshack.com/i/pm5BDdqup"
     st.image(image_url)
-    
-    image_url = "https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Natuerliche_Zahlen.jpg"
-    st.image(image_url)
-    
+       
     st.markdown("Die Menge der natürlichen Zahlen wird in der Mathematik mit dem Symbol N bezeichnet und man schreibt: ")
     st.latex(r"\mathbb{N} = \lbrace 1; 2; 3; 4; 5; ... \rbrace")
     st.markdown("Dabei symbolisieren die drei Punkte $$„…“$$, dass es immer in dieser Form weitergeht, ohne jemals abzubrechen. Die natürlichen Zahlen lassen sich als Punkte am so genannten Zahlenstrahl veranschaulichen. Die Zahl 0 wird normalerweise nicht zu den natürlichen Zahlen gezählt. Möchte man die Zahl $$0$$ dabeihaben, so schreibt man in der Regel: ")
     st.latex(r"\mathbb{N}_{0} = \lbrace 1; 2; 3; 4; 5; ... \rbrace")
     
     st.markdown("Die natürlichen Zahlen lassen sich am so genannten 'Zahlenstrahl' darstellen: ")
-    image_url = "https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Zahlenstrahl.jpg"
+    image_url = "https://imageshack.com/i/pomGWAZ5p"
     st.image(image_url)
 
 if Kapitel == "Vom Zählen zum Rechnen":
@@ -31,7 +28,8 @@ if Kapitel == "Vom Zählen zum Rechnen":
     st.markdown("Über das **Zählen** gelangt man irgendwann zwangsläufig zum **Rechnen**.")
     st.markdown("Beispiel:")
     st.markdown("Zähle zunächst die Dinge in jedem der vier untenstehenden Bilder. Überlege dir anschließend, wie du vorgegangen bist. ")
-    st.image("Vom_Zählen_zum_Rechnen.jpg")
+    image_url = "https://imageshack.com/i/poiWHaJRj"
+    st.image(image_url)
     st.markdown("Das **Bündeln in Gruppen** ist eine einfache und naheliegende **Zählstrategie**. Man braucht nicht mehr alle Objekte einzeln zu zählen, sondern fasst sie in Gruppen zusammen. Von hier ist es dann nur noch ein kleiner Schritt zur ersten Rechenoperation, der **Addition** (Plusrechnung). Wenn man beispielsweise die Anzahl der Dinge im zweiten Bild (rechts oben) durch $$3+3+5=11$$ ermittelt hat, dann hat man genau diese Zähl-Strategie angewendet und ist dadurch direkt vom Zählen zum Addieren übergegangen. Das Bündeln in Gruppen ist eine einfache und naheliegende Zählstrategie. Man braucht nicht mehr alle Objekte einzeln zu zählen, sondern fasst sie in Gruppen zusammen. Von hier ist es dann nur noch ein kleiner Schritt zur ersten Rechenoperation, der Addition (Plusrechnung). Wenn man beispielsweise die Anzahl der Dinge im zweiten Bild (rechts oben) durch $$3+3+5=11$$ ermittelt hat, dann hat man genau diese Zähl-Strategie angewendet und ist dadurch direkt vom **Zählen zum Addieren** übergegangen. ")
     st.markdown("Wenn die Objekte in günstigen Mustern angeordnet sind (z.B. Reihen und Spalten), dann kann man ihre Anzahl auch durch **Multiplikation** (Malrechnung) ermitteln. Im dritten Bild (links unten) die Anzahl ermitteln, indem man $$2\cdot5=10$$ rechnet. ")
     st.markdown("Wenn man im vierten Bild (rechts unten) die Anzahl beispielsweise über $$3\cdot5-1=14$$ ermittelt hat, so hat man bereits eine Kombination aus verschiedenen Rechenoperationen angewendet.")
