@@ -64,7 +64,7 @@ if Kapitel == "Teilbarkeit":
     st.markdown("Man sagt „Die Zahl $$a$$ ist Teiler von $$b$$“ oder „$$b$$ ist durch $$a$$ teilbar“, wenn es zu den natürlichen Zahlen $$a$$ und $$b$$ eine natürliche Zahl $$c$$ gibt, sodass gilt:")
     st.latex(r"b=a⋅c")
     st.markdown("Wenn $$a$$ Teiler von $$b$$ ist, so schreibt man: $$a | b$$   andernfalls  $$a ∤ b$$")
-    st.image("Teilbarkeit_1.jpg")
+    st.image("https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Teilbarkeit_1.JPG")
     st.image("Teilbarkeit_0.jpg")
     
 if Kapitel == "Teilbarkeitsregeln":
