@@ -65,11 +65,11 @@ if Kapitel == "Teilbarkeit":
     st.latex(r"b=a⋅c")
     st.markdown("Wenn $$a$$ Teiler von $$b$$ ist, so schreibt man: $$a | b$$   andernfalls  $$a ∤ b$$")
     st.image("https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Teilbarkeit_1.JPG")
-    st.image("Teilbarkeit_0.jpg")
+    st.image("https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Teilbarkeit_0.JPG")
     
 if Kapitel == "Teilbarkeitsregeln":
     st.header("Teilbarkeitsregeln")
-    st.image("Teilbarkeitsregeln.jpg")
+    st.image("https://github.com/darole77/Arithmetik_Grundlagen/blob/main/Teilbarkeitsregeln.JPG")
    
 
 if Kapitel == "Die ganzen Zahlen":
