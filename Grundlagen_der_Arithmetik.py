@@ -124,7 +124,7 @@ if Kapitel == "Teilbarkeit":
     df = pd.DataFrame(data)
     md_df = df.to_markdown(index=False)
     st.markdown(md_df, unsafe_allow_html=True)
-    
+    st.markdown("Da eine Multiplikation mit 0 als Ergebnis immer 0 liefert, kann die Zahl 0 selbst niemals Teiler einer anderen Zahl sein. Durch 0 zu teilen, ergibt also mathematisch keinen Sinn und wird daher in der Mathematik nicht erlaubt (nicht definiert).")
     
     
 if Kapitel == "Teilbarkeitsregeln":
